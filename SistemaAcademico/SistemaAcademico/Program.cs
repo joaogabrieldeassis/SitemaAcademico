@@ -10,9 +10,9 @@ namespace SistemaAcademico
             Aluno objAluno = new Aluno(); //Aluno() método construtor
             Professor joao = new Professor();
             int x;            
-            objAluno.cpf = 44328063870;
+            objAluno.cpf = 44328063870.ToString();
             objAluno.dataNascimento = DateTime.Parse("25/09/1990");
-            joao.cpf = 221323;
+            joao.cpf = 221323.ToString();
             objAluno.nome = "Maria";
             joao.nome = "João Pedro";
 
